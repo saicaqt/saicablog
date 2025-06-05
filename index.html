@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>Santina - I'm User Interface Designer & Developer.</title>
+  <meta name="title" content="Asnipa - Hello, It's me Satina web Designer & Developer.">
+ 
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<body>
+
+  <header class="header" data-header>
+    <div class="container">
+     
+        <ul class="navbar-list">
+        
+          <li>
+            <a href="#home" class="navbar-link">Home</a>
+          </li>
+          <li>
+            <a href="#about" class="navbar-link">About</a>
+          </li>
+          <li>
+            <a href="#contact" class="navbar-link">Contact</a>
+          </li>
+          <li>
+            <a href="#blog" class="navbar-link">Blog</a>
+          </li>
+
+        </ul>
+
+        
+        <ul class="social-list">
+
+          <li>
+            <a href="https://x.com/home" class="social-link" target="_blank" rel="noopener noreferrer">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="https://web.facebook.com/saicaqt/" class="social-link" target="_blank" rel="noopener noreferrer">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="https://www.instagram.com/saicaqt/" class="social-link" target="_blank" rel="noopener noreferrer">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="https://www.youtube.com/@Saicaqt" class="social-link" target="_blank" rel="noopener noreferrer">
+              <ion-icon name="logo-youtube"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="https://github.com/dashboard" class="social-link" target="_blank" rel="noopener noreferrer">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </nav>
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+      </button>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="section santi" id="home" aria-label="home">
+        <div class="container">
+
+          <figure class="santi-banner">
+            <img src="assets/Artistic_20250523_233012_0000.png" width="560" height="540" alt="santi" class="w-100"
+              data-reveal="top">
+          </figure>
+
+          <div class="santi-content">
+
+            <h1 class="h1 hero-title" data-reveal="top" data-reveal-delay="0.5s">
+              Hi! I'm Shadrach Pansoy I'm a web Designer & Graphic Designer.
+            </h1>
+
+            <p class="section-text" data-reveal="top" data-reveal-delay="0.75s">
+            </p>
+
+            <div class="btn-wrapper" data-reveal="top" data-reveal-delay="1s">
+              <a href="./assets/images/AsnipaCv.pdf" class="btn btn-primary" target="_blank" rel="noopener noreferrer">View My CV</a>
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+      <section class="section about" id="about" aria-label="about">
+        <div class="container">
+
+          <div class="wrapper">
+
+            <div data-reveal="left">
+              <h2 class="h2 section-title">What I Do?</h2>
+
+              <p class="section-text">
+                Hi, I'm santina, a 24-year-old aspiring developer with a passion for creating innovative and user-friendly web applications. 
+              I enjoy learning new technologies and continuously improving my skills in web development, design, and problem-solving. 
+              When I'm not coding, I love exploring creative hobbies like photography and writing, which inspire my work. 
+              My goal is to build impactful projects that make a difference in people's lives.
+              </p>
+            </div>
+
+            <ul class="progress-list" data-reveal="right">
+
+              <li class="progress-item">
+                <div class="progress-circle" data-progress="100">
+                  <span class="progress-value">75%</span>
+                </div>
+                <p>C#</p>
+              </li>
+
+              <li class="progress-item">
+                <div class="progress-circle" data-progress="85">
+                  <span class="progress-value">50%</span>
+                </div>
+                <p>Html</p>
+              </li>
+
+              <li class="progress-item">
+                <div class="progress-circle" data-progress="85">
+                  <span class="progress-value">50%</span>
+                </div>
+                <p>Css</p>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="grid-list">
+
+            <li data-reveal="bottom">
+              <div class="about-card">
+
+                <div class="card-icon">
+                  <img src="assets/icons8-c-sharp-logo-64.png" width="52" height="52" loading="lazy" alt="C# icon">
+                </div>
+
+                <h3 class="h4 card-title">C#</h3>
+
+                <p class="card-text">
+                  I use C# to build efficient, scalable, and maintainable software solutions, including desktop applications, web services, and game development.
+                </p>
+
+              </div>
+            </li>
+
+            <li data-reveal="bottom" data-reveal-delay="0.25s">
+              <div class="about-card">
+
+                <div class="card-icon">
+                  <img src="assets/icons8-html-5-48.png" width="52" height="52" loading="lazy" alt="Java icon">
+                </div>
+
+                <h3 class="h4 card-title">HTML</h3>
+
+                <p class="card-text">
+                  I develop robust and platform-independent applications using Java, focusing on backend systems, Android apps, and enterprise solutions.
+                </p>
+
+              </div>
+            </li>
+
+            <li data-reveal="bottom" data-reveal-delay="0.5s">
+              <div class="about-card">
+
+                <div class="card-icon">
+                  <img src="assets/icons8-css-logo-48.png" width="52" height="52" loading="lazy" alt="HTML icon">
+                </div>
+
+                <h3 class="h4 card-title">CSS</h3>
+
+                <p class="card-text">
+                  I create semantic, accessible, and SEO-friendly web pages using HTML, ensuring a strong foundation for modern web development.
+                </p>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+      <section class="section contact" id="contact" aria-label="contact">
+        <div class="container">
+
+          <div class="contact-card">
+
+            <div class="contact-content" data-reveal="left">
+
+              <div class="card-icon">
+                <img src="assets/icons8-email-64.png" width="44" height="44" loading="lazy" alt="envelop icon">
+              </div>
+
+              <h2 class="h2 section-title">If you like what you see, let's work together.</h2>
+
+              <p class="section-text">
+                I bring rapid solutions to make the life easier. Have any questions? Reach out to me from
+                this contact form.
+              </p>
+
+            </div>
+
+            <form action="" class="contact-form" data-reveal="right">
+
+              <div class="input-wrapper">
+                <input type="text" name="name" placeholder="Name *" required class="input-field">
+
+                <input type="email" name="email_address" placeholder="Email *" required class="input-field">
+              </div>
+
+              <textarea name="message" placeholder="Message *" required class="input-field"></textarea>
+
+              <button type="submit" class="btn btn-secondary">Send message</button>
+
+            </form>
+
+          </div>
+
+        </div>
+      </section>
+
+      <section class="section blog" id="blog" aria-label="blog">
+  <div class="container">
+    <div class="blog-boxes">
+
+      <!-- Card 1 -->
+      <div class="card">
+        <div class="content">
+          <div class="front">
+            <div class="front-content">
+              <div class="image">
+                <img src="assets/buildingapp.jpg" alt="Blog 1" class="card-img">
+              </div>
+              <h3 class="text-title">Building An App Experience</h3>
+              <p class="text-body">We built a mobile app called "Cursive Quest" in Sir Al’s class.</p>
+            </div>
+          </div>
+          <div class="back">
+            <div class="back-content">
+              <h3>Building An App Experience</h3>
+              <p>Learn more about how we developed our app and the lessons we gained along the way.</p>
+              <a href="buildingapp.html" class="card-button">Read More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="card">
+        <div class="content">
+          <div class="front">
+            <div class="front-content">
+              <div class="image">
+                <img src="assets/sti_logo.png" alt="Blog 2" class="card-img">
+              </div>
+              <h3 class="text-title">My STI Experience</h3>
+              <p class="text-body">My journey at STI was a fun experience.</p>
+            </div>
+          </div>
+          <div class="back">
+            <div class="back-content">
+              <h3>My STI Experience</h3>
+              <p>From late-night debugging to unforgettable moments with classmates.</p>
+              <a href="STI.html" class="card-button">Read More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="card">
+        <div class="content">
+          <div class="front">
+            <div class="front-content">
+              <div class="image">
+                <img src="assets/ojt.jpg" alt="Blog 3" class="card-img">
+              </div>
+              <h3 class="text-title">My OJT at the STI Alaminos</h3>
+              <p class="text-body">During my OJT at the STI Alaminos, I applied my IT knowledge in a real-world setting.</p>
+            </div>
+          </div>
+          <div class="back">
+            <div class="back-content">
+              <h3>My OJT at the STI Alaminos</h3>
+              <p>Discover how I contributed to the Alaminos STI IT initiatives and what I learned.</p>
+              <a href="ojt.html" class="card-button">Read More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 4 -->
+      <div class="card">
+        <div class="content">
+          <div class="front">
+            <div class="front-content">
+              <div class="image">
+                <img src="assets/rhu.jpg" alt="Blog 4" class="card-img">
+              </div>
+              <h3 class="text-title">Creating a System Experience</h3>
+              <p class="text-body">We have given a capstone project to create a System.</p>
+            </div>
+          </div>
+          <div class="back">
+            <div class="back-content">
+              <h3>Creating a System Experience</h3>
+              <p>Discover how I contributed and Experience on creating a System..</p>
+              <a href="rhu.html" class="card-button">Read More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+
+
+    </article>
+  </main>
+
+
+
+  <footer class="footer">
+    <div class="container">
+
+      <p class="copyright">
+        © 2025 Santina. All rights reserved.
+      </p>
+
+      <ul class="social-list">
+
+        <li>
+          <a href="https://x.com/home" class="social-link" target="_blank" rel="noopener noreferrer">
+            <ion-icon name="logo-twitter"></ion-icon>
+          </a>
+        </li>
+
+        <li>
+          <a href="https://web.facebook.com/saicaqt/" class="social-link" target="_blank" rel="noopener noreferrer">
+            <ion-icon name="logo-facebook"></ion-icon>
+          </a>
+        </li>
+
+        <li>
+          <a href="https://www.instagram.com/saicaqt/" class="social-link" target="_blank" rel="noopener noreferrer">
+            <ion-icon name="logo-instagram"></ion-icon>
+          </a>
+        </li>
+
+        <li>
+          <a href="https://www.youtube.com/@Saicaqt" class="social-link" target="_blank" rel="noopener noreferrer">
+            <ion-icon name="logo-youtube"></ion-icon>
+          </a>
+        </li>
+
+        <li>
+            <a href="https://github.com/dashboard" class="social-link" target="_blank" rel="noopener noreferrer">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+      </ul>
+
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+</html>
